@@ -59,7 +59,6 @@
             <pre><code>python bot.py</code></pre>
         </li>
     </ol>
-
     <h2>Configuration</h2>
     <p>
         The following configuration options are available within the script:
@@ -69,32 +68,24 @@
         <li><code>MAX_TWEETS_PER_DAY</code>: The maximum number of tweets allowed per day (default: 50).</li>
         <li>Check frequency: The bot checks YouTube channels every minute by default, this can be adjusted using the <code>time.sleep()</code> function in the script.</li>
     </ul>
-
     <h2>Usage</h2>
     <p>
         The bot continuously monitors the specified YouTube channels for live streams. When a channel goes live, the bot tweets the update with a link to the YouTube channel.
         The tweet count resets after 24 hours to comply with the Twitter API limits.
     </p>
-
     <h2>Limitations</h2>
     <ul>
         <li>The bot can only post up to the maximum number of tweets specified in <code>MAX_TWEETS_PER_DAY</code> per day.</li>
         <li>YouTube API quotas may limit the number of requests the bot can make daily.</li>
     </ul>
-
     <h2>Contributing</h2>
     <p>
         Contributions are welcome! Feel free to submit a pull request or open an issue to improve this project.
     </p>
-
     <h2>License</h2>
     <p>
         This project is licensed under the GNU General Public License v3.0. See the <a href="LICENSE">LICENSE</a> file for more information.
     </p>
 
-    <h2>Contact</h2>
-    <p>
-        For any questions or issues, please contact the repository owner at: <a href="mailto:your-email@example.com">your-email@example.com</a>.
-    </p>
 </body>
 </html>
