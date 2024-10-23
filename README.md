@@ -12,21 +12,18 @@
         The bot uses Twitter's API v2 and YouTube's Data API v3 to track the live status of YouTube channels
         and posts updates on Twitter accordingly.
     </p>
-
     <h2>Features</h2>
     <ul>
         <li>Monitor multiple YouTube channels for live streaming.</li>
         <li>Tweet updates to a specified Twitter account when a channel goes live.</li>
         <li>Rate-limited to a maximum number of tweets per day to avoid exceeding API limits.</li>
     </ul>
-
     <h2>Requirements</h2>
     <ul>
         <li>Python 3.6+</li>
         <li><code>tweepy</code> (Twitter API library)</li>
         <li><code>google-api-python-client</code> (YouTube API library)</li>
     </ul>
-
     <h2>Setup Instructions</h2>
     <ol>
         <li>
