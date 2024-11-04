@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <img src="https://github.com/user-attachments/assets/26d061f4-daf3-40a7-b014-633cea139d06" alt="X logo" width="200" height="200" />
     <h1>Twitter YouTube Bot</h1>
     <p>
         This Python bot monitors specified YouTube channels and tweets when the channels go live.
